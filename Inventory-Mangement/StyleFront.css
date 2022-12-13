@@ -1,0 +1,127 @@
+.imageE,.imageS,.image{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pixabay.jpg);
+    position: absolute; 
+}
+.imageC{
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pixabay.jpg);
+    position: absolute;  
+}
+.forms{
+    font-family: 'Courier New', Courier, monospace;
+    width: 1525px;
+    height: 80px;
+    position: relative;
+    color: #d3c7cb;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.forms3{
+    font-family: 'Courier New', Courier, monospace;
+    width: 1525px;
+    height: 80px;
+    position: relative;
+    color: #d3c7cb;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.forms0{
+    width: 380px;
+    height: auto;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+}
+.submit-btn0{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to left,#ff105f,#ffad06);
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    color: rgb(241, 235, 235);
+}
+
+.topnav{
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #d3c7cb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.topnav a:hover{
+    background-color: rgb(55, 203, 230);
+    color: rgb(21, 22, 22);
+    width: 200px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+.forms1{
+    width: 900px;
+    height: auto;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    color: aqua;
+}
+.text_box0{
+    border-radius: 8px;
+    height: 30px;
+    width: 500px;
+}
+.text_box1{
+    margin-left: 320px;
+    border-radius: 8px;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to left,#ff105f,#ffad06);
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    color: rgb(241, 235, 235);
+    font-size: 20px;
+}

@@ -1,0 +1,152 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.header{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #faf4f6;
+
+}
+.container h3{
+    text-decoration: #ff105f;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pixabay.jpg);
+    background-repeat: center;
+    background-size: cover;
+    position: absolute;
+}
+.login_box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(52, 99, 230, 0.144);
+    backdrop-filter: blur(5px);
+   
+}
+.button_box{
+     width: 220px;
+     margin: 35px auto;
+     position: relative;
+     box-shadow: 0 0 20px 9px #ff61241f;
+     border-radius: 30px;
+     
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #faf4f6; 
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to left,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.Input_group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: #faf4f6;
+}
+.input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    color: #f1eaec;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to left,#ff105f,#ffad06);
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    color: rgb(241, 235, 235);
+}
+.submit-btn0{
+    font-size: 19px;
+    width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    background: linear-gradient(to left,#ff105f,#ffad06);
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    color: rgb(241, 235, 235);
+}
+.check_box{
+    margin:  30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+.validation0{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+    background: #fd4444;
+    color: #f9f9f9;
+    transition: all 0.35s;
+}
+input:valid { border-color: #55d688;}
+input:valid ~ .validation0{ max-height: 0;}
+.validation1{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+    background: #fd4444;
+    color: #f9f9f9;
+    transition: all 0.35s;
+}
+input:valid { border-color: #55d688;}
+input:valid ~ .validation1{ max-height: 0;}
